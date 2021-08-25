@@ -1,0 +1,74 @@
+/* body settings */
+body {
+	background-color: black;
+	text-align      : center;
+	font-family   : Verdana, Tahoma, Helvetica;
+	font-size     : 25px;
+	color         : yellow;
+}
+
+/* font settings */
+@font-face {
+	font-family: Pink Chicken;
+	src: url('pink_chicken.ttf') format('truetype');
+}
+
+#header {
+	background-color: blue;
+	color: white;
+ font-family: Monospace;
+ width: 980px;
+ font-weight: bold;
+ height: 80px;
+ text-align: center;
+ margin-top: -30px;
+}
+
+/* runningtext settings */
+#runningtext {
+	background-color: maroon;
+	color: white;
+	width: 980px;
+	height: 60px;
+	font-family: verdana;
+	font-weight: bold;
+	position: none;
+}
+
+#judul1 {
+	font-family: Pink Chicken;
+	color: cyan;
+}
+
+#description {
+	font-family: Pink Chicken;
+	font-weight: none;
+	color: #eaeaea;
+}
+
+#menu {
+	text-align: left;
+	font-family: monospace;
+	font-weight: bold;
+}
+#menu ul li a {
+	color: cyan;
+	background-color: blue;
+	padding: 12px 20px;
+	margin-top: 10px;
+}
+
+#footer{
+	width 				: 100%;
+	font-family: Pink Chicken;
+	font-weight: none;
+	height				: 50px;
+	margin-top			: 5px;
+	padding-top			: 30;
+	background-color	: #49494e;
+	color				: white;
+	font-size			: 35px;
+	text-align			: center;
+	position			: relative;
+	clear				: both;
+}
